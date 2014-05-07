@@ -137,11 +137,11 @@ public class Principal extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
             if (jComboBox1.getSelectedIndex() == 0) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";A",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";A",p.jTextField3.getText()));
             } else if (jComboBox1.getSelectedIndex() == 1) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";B",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";B",p.jTextField3.getText()));
             } else if (jComboBox1.getSelectedIndex() == 2) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";C",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";C",p.jTextField3.getText()));
             }
         } catch (Exception ex) {
             Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
@@ -152,11 +152,11 @@ public class Principal extends javax.swing.JFrame {
         if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
             try {
                 if (jComboBox1.getSelectedIndex() == 0) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";A",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";A",p.jTextField3.getText()));
             } else if (jComboBox1.getSelectedIndex() == 1) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";B",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";B",p.jTextField3.getText()));
             } else if (jComboBox1.getSelectedIndex() == 2) {
-                p.jTextField2.setText(Cliente.main(p.jTextField1.getText() + ";C",p.jTextField3.getText()));
+                p.jTextField2.setText(Cliente.client(p.jTextField1.getText() + ";C",p.jTextField3.getText()));
             }
             } catch (Exception ex) {
                 Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);

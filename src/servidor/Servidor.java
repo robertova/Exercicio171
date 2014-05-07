@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.*;
 
 public class Servidor {
-    public static void main() throws Exception {
+    public static void server() throws Exception {
         String clientSentence;
         String capitalizedSentence = "";
         ServerSocket welcomeSocket = new ServerSocket(6789);

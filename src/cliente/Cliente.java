@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.*;
 
 public class Cliente {
-    public static String main(String frase,String servidor) throws Exception {
+    public static String client(String frase,String servidor) throws Exception {
         String sentence;
         String modifiedSentence;
         BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));

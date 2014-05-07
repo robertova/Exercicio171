@@ -96,7 +96,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
         try {
-            Servidor.main();
+            Servidor.server();
         } catch (Exception ex) {
             Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
         }
